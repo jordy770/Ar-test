@@ -10,7 +10,7 @@
     </head>
 
     <body style="margin: 0; overflow: hidden;">
-        <a-scene
+        <a-scene    
             renderer="logarithmicDepthBuffer: true;"
             embedded
             loading-screen="enabled: false;"
@@ -19,10 +19,9 @@
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
-                    src="assets/windTurbineBig.glb"
+                    src="assets/viktorLogoV2.glb"
                 ></a-asset-item>
             </a-assets>
-
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
@@ -55,4 +54,10 @@
             <a-camera gps-camera rotation-reader></a-camera>
         </a-scene>
     </body>
+
+    <script>
+
+        const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
+        console.log(distanceMsg)
+    </script>
 </html>
