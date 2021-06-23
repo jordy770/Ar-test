@@ -26,28 +26,28 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.2 0.2 0.2"
+                    scale="0.5 0.5 0.5"
                     gps-entity-place="latitude: 52.00042627304996; longitude: 4.51375661417842;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.2 0.2 0.2"
+                    scale="0.5 0.5 0.5"
                     gps-entity-place="latitude: 52.001516129024964; longitude: 4.514303784817458;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.2 0.2 0.2"
+                    scale="0.5 0.5 0.5"
                     gps-entity-place="latitude: 52.00287015554528; longitude: 4.514915328472854;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.2 0.2 0.2"
+                    scale="0.5 0.5 0.5"
                     gps-entity-place="latitude: 52.00427697873673; longitude: 4.5155161432921895;"
                 ></a-entity>
 
@@ -57,10 +57,8 @@
 
     <script>
 
-        function getDistance() {
-            const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
-            console.log(distanceMsg)
-            alert(distanceMsg)
-        }
+        const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
+        console.log(distanceMsg)
+        alert(distanceMsg)
     </script>
 </html>
