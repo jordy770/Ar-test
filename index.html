@@ -19,42 +19,42 @@
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
-                    src="assets/viktorLogoV2.glb"
+                    src="assets/windTurbineBig.glb"
                 ></a-asset-item>
             </a-assets>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.5 0.5 0.5"
+                    scale="0.05 0.05 0.05"
                     gps-entity-place="latitude: 52.00042627304996; longitude: 4.51375661417842;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.5 0.5 0.5"
+                    scale="0.05 0.05 0.05"
                     gps-entity-place="latitude: 52.001516129024964; longitude: 4.514303784817458;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.5 0.5 0.5"
+                    scale="0.05 0.05 0.05"
                     gps-entity-place="latitude: 52.00287015554528; longitude: 4.514915328472854;"
                 ></a-entity>
                 <a-entity
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.5 0.5 0.5"
+                    scale="0.05 0.05 0.05"
                     gps-entity-place="latitude: 52.00427697873673; longitude: 4.5155161432921895;"
                 ></a-entity>
 
-            <a-camera id='camera1' look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1' gps-camera='gpsMinDistance: 5' rotation-reader simulateLatitude="51.999887" simulateLongitude="4.513746"></a-camera>
+            <a-camera id='camera1' look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1' gps-camera='gpsMinDistance: 5' rotation-reader></a-camera>
         </a-scene>
     </body>
-
+<!-- simulateLatitude="51.999887" simulateLongitude="4.513746" -->
     <script>
 
         const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
