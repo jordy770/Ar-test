@@ -51,10 +51,10 @@
                     gps-entity-place="latitude: 52.00427697873673; longitude: 4.5155161432921895;"
                 ></a-entity>
 
-            <a-entity id='camera1' camera='near:0.1; far:50000; fov:80;' arjs-look-controls='smoothingFactor: 0.1' gps-projected-camera='gpsMinDistance: 5' rotation-reader></a-entity>
+                <a-camera gps-camera look-controls-enabled="false" arjs-look-controls="smoothingFactor: 0.1"  rotation-reader simulateLatitude="51.999887" simulateLongitude="4.513746"></a-camera>
+            <!-- <a-entity id='camera1' camera='near:0.1; far:50000; fov:80;' arjs-look-controls='smoothingFactor: 0.1' gps-projected-camera='gpsMinDistance: 5' rotation-reader></a-entity> -->
         </a-scene>
     </body>
-<!-- simulateLatitude="51.999887" simulateLongitude="4.513746" -->
     <script>
 
         const distanceMsg = document.querySelector('[gps-entity-place]').getAttribute('distanceMsg');
