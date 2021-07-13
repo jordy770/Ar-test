@@ -45,8 +45,8 @@
       <a-entity
                     look-at="[gps-camera]"
                     gltf-model="#animated-asset"
-                    scale="0.05 0.05 0.05"
-                    gps-entity-place="latitude: 52.012059; longitude: 4.497266;"
+                    scale="0.3 0.3 0.3"
+                    gps-entity-place="latitude: 52.012995; longitude:4.498617;"
                 ></a-entity>
                 <!-- <a-entity
                     look-at="[gps-camera]"
@@ -58,10 +58,11 @@
       <a-camera
         look-controls-enabled="false"
         arjs-look-controls="smoothingFactor: 0.1"
-        gps-camera
+        gps-camera="gpsMinDistance: 10;"
         rotation-reader
       >
-      <!-- ="gpsMinDistance: 10; simulateLatitude: 51.999887; simulateLongitude: 4.513746;" -->
+
+      <!-- simulateLatitude: 51.999887; simulateLongitude: 4.513746; -->
       </a-camera>
     </a-scene>
   </body>
