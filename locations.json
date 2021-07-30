@@ -1,22 +1,110 @@
 {
-    "location": [
+    "locations": [
         {
-            "id": "0",
-            "name": "Bleiswijk",
-            "long": "4.51375661417842",
-            "lat": "52.00042627304996"
+            "id": 0,
+            "name": "Rotterdam",
+            "gps": {"lat": 0, "long": 0 },
+            "project": [
+                {
+                    "id": 0,
+                    "name": "windmolen mogelijkheid 1",
+                    "gps": {"lat": 0, "long": 0 },
+                    "turbinePossibiltities": [
+                        {
+                            "id": 0,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 1,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 2,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 3,
+                            "gps":{"lat":0, "long":0 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "windmolen mogelijkheid 2",
+                    "turbinePossibiltities": [
+                        {
+                            "id": 0,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 1,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 2,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 3,
+                            "gps":{"lat":0, "long":0 }
+                        }
+                    ]
+                }
+                
+            ]
         },
         {
-            "id": "1",
-            "name": "Bleiswijk",
-            "long": "4.51375661417842",
-            "lat": "52.00042627304996"
-        },
-        {
-            "id": "2",
-            "name": "Bleiswijk",
-            "long": "4.51375661417842",
-            "lat": "52.00042627304996"
+            "id": 1,
+            "name": "Culemborg",
+            "gps": {"lat": 0, "long": 0 },
+            "project": [
+                {
+                    "id": 0,
+                    "name": "windmolen mogelijkheid 1",
+                    "gps": {"lat": 0, "long": 0 },
+                    "turbinePossibiltities": [
+                        {
+                            "id": 0,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 1,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 2,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 3,
+                            "gps":{"lat":0, "long":0 }
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "windmolen mogelijkheid 2",
+                    "turbinePossibiltities": [
+                        {
+                            "id": 0,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 1,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 2,
+                            "gps":{"lat":0, "long":0 }
+                        },
+                        {
+                            "id": 3,
+                            "gps":{"lat":0, "long":0 }
+                        }
+                    ]
+                }
+                
+            ]
         }
     ]
 }
